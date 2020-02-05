@@ -89,6 +89,23 @@
               </tr>
             </table>
           </div>
+          <div class="sortArea mb-3">
+            <h2 class="h6 font-weight-bold">タスクの並び替え</h2>
+            <div class="btn-group w-100 sortBtns" id="js-sort">
+              <button class="btn btn-outline-secondary w-50 js-sort-priority">優先度順</button>
+              <button class="btn btn-outline-secondary w-50 js-sort-limit">期限順</button>
+            </div>
+          </div>
+          <div class="mb-4 mb-md-5">
+            <button class="btn btn-outline-danger w-100" id="js-removeAllItem">全タスク削除</button>
+          </div>
+          <div>
+            <h2 class="h6 font-weight-bold mb-3">本サイトについて</h2>
+            <h3 class="h6">閲覧推奨環境</h3>
+            <div class="small">
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
